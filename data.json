@@ -1,0 +1,14 @@
+{
+    "abcd": {
+        "url": "https://roblox.com",
+        "name": "Your Destination"
+    },
+    "efgh": {
+        "url": "https://anotherdestination.com",
+        "name": "Another Destination"
+    },
+    "ijkl": {
+        "url": "https://yetanotherdestination.com",
+        "name": "Yet Another Destination"
+    }
+}
