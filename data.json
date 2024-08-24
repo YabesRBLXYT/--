@@ -1,12 +1,10 @@
-[
-    {
-        "id": "abcd",
+{
+    "abcd": {
         "url": "https://roblox.com",
         "name": "Your Destination"
     },
-    {
-        "id": "efgh",
+    "efgh": {
         "url": "https://anotherdestination.com",
         "name": "Another Destination"
     }
-]
+}
