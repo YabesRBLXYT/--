@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect</title>
+    <title>Secure Linkvertise Clone</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,14 +55,13 @@
     <script>
         const continueButton = document.getElementById('continueButton');
         const timerElement = document.getElementById('timer');
-        const urlParams = new URLSearchParams(window.location.search);
-        const destinationId = urlParams.get('abcd'); // Get ID from URL parameters
+        const destinationId = 'abcd'; // Set the ID here
 
         // Load destination data
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                const destination = data.find(item => item.id === destinationId);
+                const destination = data[destinationId];
                 if (destination) {
                     // Set button text immediately
                     continueButton.textContent = `Continue to ${destination.name}`;
